@@ -40,6 +40,12 @@ Open your project in Vue Designer, and follow the instructions displayed in the 
 npm run dev
 ```
 
+### Preview
+
+```bash
+npm run now # build & preview
+```
+
 ### Build
 
 ```bash
@@ -85,13 +91,11 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 ### Modules/Plugins
 
 - [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file-components visually in Vue Designer.
-
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
 
 ### Devtools
 
 - [Nuxt Devtools](https://devtools.nuxtjs.org) - Enhance your DX (developer experience) with an amazing set of in-app features.
-
 - [Vue Devtools](https://devtools.vuejs.org/guide/installation.html#standalone) - Official devtools that can be used as a standalone app alongside Vue Designer. It's configured as a Nuxt plugin (only during development).
   - **ACTION REQUIRED**: Currently deactivated. In `plugins/devtools.client.ts`, uncomment to activate.
 

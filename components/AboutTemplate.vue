@@ -7,7 +7,6 @@
     <div class="flex flex-wrap items-center justify-center">
       <div
         class="mx-auto p-4 rounded-2xl w-full sm:w-4/5 lg:w-5/12 pg-primary-container pg-on-primary-container-text"
-        type="div"
       >
         <div class="flex flex-wrap justify-between sm:flex-nowrap">
           <div class="p-5 text-center w-full whitespace-nowrap">
@@ -15,14 +14,20 @@
             <p class="pg-primary-text">Nuxt</p>
           </div>
           <div
-            class="hidden items-center justify-center my-4 pg-surface-contained relative w-1 sm:flex"
+            class="hidden items-center justify-center my-4 relative w-1 sm:flex"
           >
-            <span class="-ml-px absolute h-full w-0.5" aria-hidden="true" />
+            <span
+              class="-ml-px absolute h-full w-0.5 pg-surface-container"
+              aria-hidden="true"
+            />
           </div>
           <div
             class="flex h-2 items-center justify-center my-4 relative w-full sm:hidden"
           >
-            <span class="-ml-px absolute w-full h-0.5" aria-hidden="true" />
+            <span
+              class="-ml-px absolute w-full h-0.5 pg-surface-container"
+              aria-hidden="true"
+            />
           </div>
           <div class="p-5 text-center w-full whitespace-nowrap">
             <h5>UI-framework</h5>
@@ -52,7 +57,7 @@
             href="https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin"
             >Pinegrow Tailwind CSS Plugin</NuxtLink
           >
-          that enables you to visually edit your Vue single-file components in
+          that enables you to visually design your Vue single-file components in
           Vue Designer.
         </p>
 

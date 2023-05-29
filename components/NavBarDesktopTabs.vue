@@ -35,7 +35,6 @@
       size="xl"
       icon="i-mdi-pine-tree"
       trailing
-      color="secondary"
       ><span class="pl-2">Try Now</span>
     </UButton>
   </div>

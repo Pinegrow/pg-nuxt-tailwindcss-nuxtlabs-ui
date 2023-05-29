@@ -31,7 +31,7 @@
           <div class="-mr-2 items-center relative">
             <NavBarMobileMenuButton v-if="mobileNavTabs.length" />
             <NavBarMobileMenu
-              class="hidden absolute right-0 mt-4"
+              class="hidden sm:block absolute right-0 mt-4"
               :navlinks="mobileNavTabs"
               :current-path="currentPath"
             />
