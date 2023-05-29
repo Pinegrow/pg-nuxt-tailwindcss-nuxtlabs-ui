@@ -1,0 +1,47 @@
+{
+  "name": "pg-nuxt-tailwindcss-nuxtlabs-ui",
+  "version": "0.0.0",
+  "homepage": "https://pg-nuxt-tailwindcss-nuxtlabs-ui.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinegrow/pg-nuxt-tailwindcss-nuxtlabs-ui.git"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "vue-devtools": "vue-devtools",
+    "lint": "npm run lint:fix && npm run format",
+    "lint:fix": "eslint . --ext .js,.cjs,.ts,.vue --ignore-path .gitignore --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.67",
+    "@nuxt/content": "^2.6.0",
+    "@nuxt/devtools": "^0.4.5",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxthq/ui": "^2.1.0",
+    "@pinegrow/nuxt-module": "^3.0.0-beta.128",
+    "@pinegrow/tailwindcss-plugin": "^3.0.0-beta.74",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "@vue/devtools": "^6.5.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "npm-run-all": "^4.1.5",
+    "nuxt": "^3.5.0",
+    "nuxt-icon": "^0.4.0",
+    "postcss": "^8.4.22",
+    "prettier": "^2.8.4",
+    "rehype-external-links": "^2.1.0",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.2"
+  },
+  "web-types": "web-types.json"
+}
