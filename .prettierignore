@@ -8,10 +8,10 @@ node_modules
 dist
 .DS_Store
 
-/*.d.ts
-  
 #Pinegrow
 _pgbackup
 _pginfo
 #optional
-pinegrow.json 
+pinegrow.json
+*.d.ts
+!shims.d.ts

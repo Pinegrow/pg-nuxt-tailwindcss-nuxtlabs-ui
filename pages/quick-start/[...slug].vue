@@ -24,8 +24,8 @@
           <h6 class="mt-2">Github repo for this template</h6>
           <UButton
             size="xs"
-            class="ml-2 pg-primary-container-text"
-            color="gray"
+            class="ml-2"
+            color="secondary"
             to="https://github.com/pinegrow/pg-nuxt-tailwindcss-nuxtlabs-ui"
             target="_blank"
           >

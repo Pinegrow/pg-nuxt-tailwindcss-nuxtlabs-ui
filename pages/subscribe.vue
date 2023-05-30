@@ -33,12 +33,7 @@
                   type="email"
                   required
                 />
-                <UButton
-                  type="submit"
-                  class="ml-2 pg-primary-container-text"
-                  size="md"
-                  color="gray"
-                >
+                <UButton type="submit" class="ml-2" size="md" color="secondary">
                   Sign Up
                 </UButton>
               </div>
