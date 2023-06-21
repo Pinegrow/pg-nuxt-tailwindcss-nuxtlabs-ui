@@ -4,10 +4,10 @@
     return queryContent(slug).findOne()
   })
 
-  definePageMeta({
-    name: 'quick-start',
-    navOrder: 2,
-  })
+  // definePageMeta({
+  //   name: 'quick-start',
+  //   navOrder: 2,
+  // })
 
   useHead({
     title: post.value.title,

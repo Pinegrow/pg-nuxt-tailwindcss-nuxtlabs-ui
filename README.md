@@ -8,9 +8,9 @@ A desktop drag-and-drop editor for Vue apps supporting Mac, Windows and Linux by
 
 It let's you visually design 🎨 your Vue single file components and boosts your productivity and your creativity while building your component-based Vue apps.
 
-It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI, and provides an amazing deverloper experience with it's powerful visual controls and features.
+It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI, and provides an amazing developer experience with it's powerful visual controls and features.
 
-Clean code 😃, No lock-in - Pinegrow Vue Designer is an open-tool ❤️
+Clean code 😃, No lock-in - You are in control of your projects and development workflow ❤️
 
 ## Try it now!
 
@@ -80,7 +80,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
   - 🌗 **[Nuxt Color Mode](https://color-mode.nuxtjs.org/)** - Dark and Light mode with auto detection made easy with Nuxt.
   - 😃 **[TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons)** - Use any icon (100,000+) from Iconify, for TailwindCSS.
 
-### Filed-based CMS (markdown)
+### File-based CMS (markdown)
 
 - [Nuxt Content](https://github.com/nuxt/content) - file-based CMS for powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
 
@@ -129,4 +129,4 @@ Allows JS & strict mode is turned off. Update `tsconfig.ts` as required.
 
 ## Community
 
-- [Pinegrow Vue Designer](https://forum.pinegrow.com/vue-designer)
+- [Pinegrow Vue Designer](https://forum.pinegrow.com/c/vue-designer)

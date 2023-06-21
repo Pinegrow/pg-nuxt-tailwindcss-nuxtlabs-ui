@@ -24,18 +24,64 @@
             <h1 class="capitalize leading-tight mb-2 text-white">
               Vue Designer
             </h1>
-            <h5 class="mb-6 text-gray-300">
+            <h5 class="mb-6 text-gray-50">
               A desktop drag-and-drop editor for Mac, Windows and Linux that
               lets you visually design your Vue apps.
             </h5>
+            <UCard class="mt-4">
+              <template #default>
+                <UAvatarGroup size="xl" :max="3">
+                  <UAvatar
+                    src="https://avatars.githubusercontent.com/u/739984?v=4"
+                    size="xl"
+                  ></UAvatar>
+                  <UAvatar
+                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDQyfHxwcm9maWxlfGVufDB8fHx8MTY4NzE2ODcyNnww&ixlib=rb-4.0.3&q=80&w=200"
+                    size="xl"
+                  ></UAvatar>
+                  <UAvatar
+                    src="https://images.unsplash.com/photo-1573495612522-d994e72e5f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE4fHxhZnJpY2FuJTIwY29tcHV0ZXIlMjB3b21hbnxlbnwwfHx8fDE2ODcxNjg5NzV8MA&ixlib=rb-4.0.3&q=80&w=200"
+                    size="xl"
+                  ></UAvatar>
+                  <UAvatar
+                    src="https://avatars.githubusercontent.com/u/739984?v=4"
+                    size="xl"
+                  ></UAvatar>
+                </UAvatarGroup>
+              </template>
+            </UCard>
             <UButton
-              class="!rounded-3xl px-6 py-4"
+              label="Primary Button"
               to="https://pinegrow.com/vue-designer"
+              size="xl"
               trailing
-              target="_blank"
               trailing-icon="i-material-symbols-open-in-new"
-              size="md"
-              ><span class="font-normal text-xl">Learn More</span>
+              target="_blank"
+              class="!rounded-3xl mt-4 px-6 py-4"
+              color="primary"
+            >
+            </UButton>
+            <UButton
+              label="Green Button"
+              to="https://pinegrow.com/vue-designer"
+              size="xl"
+              trailing
+              trailing-icon="i-material-symbols-open-in-new"
+              target="_blank"
+              class="!rounded-3xl mt-4 px-6 py-4"
+              color="green"
+            >
+            </UButton>
+            <UButton
+              label="Tertiary Button"
+              to="https://pinegrow.com/vue-designer"
+              size="xl"
+              trailing
+              trailing-icon="i-material-symbols-open-in-new"
+              target="_blank"
+              class="!rounded-3xl mt-4 px-6 py-4"
+              color="tertiary"
+            >
             </UButton>
           </div>
         </div>

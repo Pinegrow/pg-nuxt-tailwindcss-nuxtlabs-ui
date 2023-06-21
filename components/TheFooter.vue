@@ -27,7 +27,7 @@
           <UIcon name="i-logos-twitter" class="text-2xl"></UIcon>
         </NuxtLink>
         <NuxtLink
-          href="https://forum.pinegrow.com/vue-designer"
+          href="https://forum.pinegrow.com/c/vue-designer"
           aria-label="facebook"
           external
           target="_blank"
