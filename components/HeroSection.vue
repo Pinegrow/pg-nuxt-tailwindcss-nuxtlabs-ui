@@ -51,36 +51,13 @@
               </template>
             </UCard>
             <UButton
-              label="Primary Button"
+              label="Learn More!"
               to="https://pinegrow.com/vue-designer"
               size="xl"
               trailing
               trailing-icon="i-material-symbols-open-in-new"
               target="_blank"
               class="!rounded-3xl mt-4 px-6 py-4"
-              color="primary"
-            >
-            </UButton>
-            <UButton
-              label="Green Button"
-              to="https://pinegrow.com/vue-designer"
-              size="xl"
-              trailing
-              trailing-icon="i-material-symbols-open-in-new"
-              target="_blank"
-              class="!rounded-3xl mt-4 px-6 py-4"
-              color="green"
-            >
-            </UButton>
-            <UButton
-              label="Tertiary Button"
-              to="https://pinegrow.com/vue-designer"
-              size="xl"
-              trailing
-              trailing-icon="i-material-symbols-open-in-new"
-              target="_blank"
-              class="!rounded-3xl mt-4 px-6 py-4"
-              color="tertiary"
             >
             </UButton>
           </div>

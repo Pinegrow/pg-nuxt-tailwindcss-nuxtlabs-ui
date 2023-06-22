@@ -4,11 +4,11 @@ This is a starter template that pre-includes the [Pinegrow Nuxt Module](https://
 
 ## Vue Designer
 
-A desktop drag-and-drop editor for Vue apps supporting Mac, Windows and Linux by [Pinegrow](https://pinegrow.com/).
+A desktop visual editor for Vue apps supporting Mac, Windows, and Linux by [Pinegrow](https://pinegrow.com/). Take it for a free trial at [Vue Designer](https://pinegrow.com/vue-designer)!
 
-It let's you visually design 🎨 your Vue single file components and boosts your productivity and your creativity while building your component-based Vue apps.
+It lets you visually design 🎨 your Vue single file components and boosts your productivity and creativity while building your component-based Vue apps.
 
-It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI, and provides an amazing developer experience with it's powerful visual controls and features.
+It smartly integrates with your ⚡️ [Vite](https://vitejs.dev/) based CLI and provides an amazing developer experience with its powerful visual controls and features.
 
 Clean code 😃, No lock-in - You are in control of your projects and development workflow ❤️
 
@@ -30,7 +30,7 @@ npm install #or use pnpm
 
 ## 2. Open in Vue Designer
 
-Open your project in Vue Designer, and follow the instructions displayed in the Config Panel (that should pop-out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystem and community.
+Open your project in Vue Designer and follow the instructions displayed in the Config Panel (that should pop out automatically). Config Panel ⚙️ displays the key packages and the various links to their individual ecosystems and communities.
 
 ## Usage
 
@@ -55,9 +55,10 @@ npm run generate # SPA SSG (full-static)
 
 And you will see the generated file in `dist` that's ready to be served.
 
-### Deploy on Netlify
+### Deploy to Netlify
 
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your app will be live in a minute.
+You can deploy this repo as a site on your own to explore and experiment with, by clicking this button.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pinegrow/pg-nuxt-tailwindcss-nuxtlabs-ui)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
@@ -73,24 +74,58 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3) - The amazing utility-first CSS framework.
 
 - [NuxtLabs UI](https://ui.nuxtlabs.com/getting-started) - Fully styled and customizable components for Nuxt. Under the hood:
-
   - 🦾 **[HeadlessUI-Vue](https://headlessui.com/vue/menu)** - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
   - ⚡ **[VueUse](https://vueuse.org/)** - collection of essential Vue composition utilities.
   - 🔌 **[Nuxt Tailwind CSS Module](https://tailwindcss.nuxtjs.org/)** - This module helps you set up Tailwind CSS in your Nuxt application in seconds.
   - 🌗 **[Nuxt Color Mode](https://color-mode.nuxtjs.org/)** - Dark and Light mode with auto detection made easy with Nuxt.
   - 😃 **[TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons)** - Use any icon (100,000+) from Iconify, for TailwindCSS.
 
+### NuxtLabs UI configuration
+
+- 👉 NuxtLabs uses heroicons by default and is configured only to use them. In order to use all iconsets in Vue Designer's icon-picker, the `ui` key of the Nuxt config has been updated (`icons: 'all'`).
+- Also, note that there are some scenarios when colors might have to be added to the `safelistColors` array under the `ui` key. For more details, refer to the official [documentation](https://ui.nuxtlabs.com/getting-started/theming#colors).
+
+  ```ts
+  // nuxt.config.ts
+  export default defineNuxtConfig({
+    modules: [
+      '@pinegrow/nuxt-module',
+      // 'nuxt-icon', // not using this because the format nuxt-icon uses is not same as UIcon of @nuxthq/ui
+      '@nuxthq/ui',
+      //...
+    ],
+    pinegrow: {
+      liveDesigner: {
+        iconPreferredCase: 'unocss', // default value (can be removed), nuxtlabs/ui uses the unocss format for icon names
+        //...
+      },
+    },
+    ui: {
+      icons: 'all',
+      // safelistColors: [
+      //   'primary',
+      //   'secondary',
+      //   'tertiary',
+      //   'success',
+      //   'warning',
+      //   'error',
+      //   'info',
+      // ],
+    },
+  )}
+  ```
+
 ### File-based CMS (markdown)
 
-- [Nuxt Content](https://github.com/nuxt/content) - file-based CMS for powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
+- [Nuxt Content](https://github.com/nuxt/content) - file-based CMS powered by Markdown & Vue components. Note: This page is a markdown file 🗒.
 
 ### Icons
 
-- [TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. This is already part of NuxtLabs UI, so you just use UIcon component and icon props/slots of other components like UButton etc. Uses the **unocss** format for icon names, for eg, `i-mdi-home`
+- [TailwindCSS Icons](https://github.com/egoist/tailwindcss-icons) - use over 100,000 open-source [Iconify](https://iconify.design/) icons. This is already part of NuxtLabs UI, so you just use UIcon component and icon props/slots of other components like UButton etc. Uses the **unocss** format for icon names, for example, `i-mdi-home`
 
 ### Modules/Plugins
 
-- [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file-components visually in Vue Designer.
+- [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module) - enables you to live-design your Vue single-file components visually in Vue Designer.
 - [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) - via Design Panel, enables visual controls customization (automatic) and theme customization (optional).
 
 ### Devtools
@@ -114,7 +149,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ### Typescript
 
-Allows JS & strict mode is turned off. Update `tsconfig.ts` as required.
+This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as required.
 
 ```json
 {
