@@ -39,7 +39,7 @@
                   external
                   target="_blank"
                   variant="link"
-                  class="text-white dark:text-primary-800"
+                  class="!text-white dark:text-primary-800"
                   color="white"
                   >Documentation</UButton
                 >
