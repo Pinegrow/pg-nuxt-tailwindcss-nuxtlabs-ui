@@ -17,7 +17,7 @@
         <div class="flex h-24 items-center justify-between">
           <div class="flex items-center justify-between w-full">
             <div class="flex flex-shrink-0 items-center">
-              <NuxtLink to="/" class="pg-primary-text">
+              <NuxtLink to="/" class="text-primary-600 dark:text-primary-200">
                 <h5 class="font-extrabold mb-0 ml-2">Vue Designer</h5>
               </NuxtLink>
             </div>

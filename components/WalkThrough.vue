@@ -7,12 +7,12 @@
   // })
 </script>
 <template>
-  <div class="px-4 py-24 relative pg-primary">
+  <div class="px-4 py-24 relative bg-primary-600 dark:bg-primary-200">
     <div class="container mx-auto flex flex-wrap items-center justify-center">
       <div class="mx-auto p-4 w-full lg:w-6/12">
         <div class="p-4 rounded-2xl shadow-xl">
           <div class="flex items-center justify-center pb-4 lg:justify-start">
-            <h3 class="capitalize mb-0 pg-primary-container-text">
+            <h3 class="capitalize mb-0 text-primary-100 dark:text-primary-700">
               Quick Walkthrough
             </h3>
           </div>
@@ -39,18 +39,18 @@
                   external
                   target="_blank"
                   variant="link"
-                  class="pg-on-primary-text"
+                  class="text-white dark:text-primary-800"
                   color="white"
                   >Documentation</UButton
                 >
               </li>
               <li class="mb-4">
                 <UButton
-                  to="https://www.youtube.com/@pgvuedesigner/"
+                  to="https://www.youtube.com/@vuedesigner/playlists"
                   external
                   target="_blank"
                   variant="link"
-                  class="!pg-on-primary-text"
+                  class="!text-white dark:text-primary-800"
                   color="white"
                   >Video Tutorials</UButton
                 >
@@ -61,7 +61,7 @@
                   external
                   target="_blank"
                   variant="link"
-                  class="!pg-on-primary-text"
+                  class="!text-white dark:text-primary-800"
                   color="white"
                   >Support</UButton
                 >
@@ -78,31 +78,31 @@
                   external
                   target="_blank"
                   variant="link"
-                  class="!pg-on-primary-text"
+                  class="!text-white dark:text-primary-800"
                   color="white"
                   >Trial</UButton
                 >
               </li>
               <li class="mb-4">
                 <UButton
-                  to="https://pinegrow.com/vue-designer"
+                  to="https://pinegrow.com/vue-designer/#buy"
                   external
                   target="_blank"
                   variant="link"
-                  class="!pg-on-primary-text"
+                  class="!text-white dark:text-primary-800"
                   color="white"
                   >Purchase</UButton
                 >
               </li>
               <li class="mb-4">
                 <UButton
-                  to="https://pinegrow.com/release_notes/"
+                  to="https://forum.pinegrow.com/c/vue-designer"
                   external
                   target="_blank"
                   variant="link"
-                  class="!pg-on-primary-text"
+                  class="!text-white dark:text-primary-800"
                   color="white"
-                  >Release Notes</UButton
+                  >Community Forum</UButton
                 >
               </li>
             </ul>

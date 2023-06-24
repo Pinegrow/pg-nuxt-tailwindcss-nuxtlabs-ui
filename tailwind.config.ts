@@ -24,12 +24,6 @@ export default {
     },
   },
 
-  safelist: [
-    {
-      pattern: /pg-(.+)/, // If using pg classes dynamically in components
-    },
-  ],
-
   get content() {
     const _content = [
       './components/**/*.{js,vue,ts}',

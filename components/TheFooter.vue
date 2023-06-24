@@ -11,7 +11,7 @@
     <div class="container mx-auto px-8">
       <div class="flex flex-wrap justify-center space-x-8">
         <NuxtLink
-          href="https://www.facebook.com/vuedesigner/"
+          href="https://www.facebook.com/vuedesigner"
           aria-label="facebook"
           external
           target="_blank"
@@ -19,23 +19,16 @@
           <UIcon name="i-logos-facebook" class="text-2xl"></UIcon>
         </NuxtLink>
         <NuxtLink
-          href="https://twitter.com/vuedesigner/"
+          href="https://twitter.com/vuedesigner"
           aria-label="twitter"
           external
           target="_blank"
         >
           <UIcon name="i-logos-twitter" class="text-2xl"></UIcon>
         </NuxtLink>
+
         <NuxtLink
-          href="https://forum.pinegrow.com/c/vue-designer"
-          aria-label="discourse"
-          external
-          target="_blank"
-        >
-          <UIcon name="i-logos-discourse-icon" class="text-2xl"></UIcon>
-        </NuxtLink>
-        <NuxtLink
-          href="https://www.youtube.com/@pgvuedesigner/"
+          href="https://www.youtube.com/@vuedesigner"
           aria-label="youtube"
           external
           target="_blank"
