@@ -54,7 +54,7 @@
             </UCard>
             <UButton
               label="Learn More!"
-              to="https://pinegrow.com/vue-designer"
+              to="https://vuedesigner.com"
               size="xl"
               trailing
               trailing-icon="i-material-symbols-open-in-new"
